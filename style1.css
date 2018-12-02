@@ -1,0 +1,30 @@
+/*Selector {
+	Property: value;
+}*/
+html {
+  font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Catamaran', sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+body {
+	background-color: rgba(255, 0, 0, .6);
+}	
+
+h1 {
+	text-align: center;
+	border: 5px solid blue
+}
+
+h2 {
+	text-align: center;
+}	
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+  color: green;
+}
